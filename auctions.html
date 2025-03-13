@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Auctions | Ardmore Car Auction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="View upcoming car auctions at Ardmore Car Auction in Oklahoma. Auctions held every Monday at 7:00 PM.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ardmore Car Auction</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="auctions.html" class="active">Auctions</a></li>
+                    <li><a href="how-to-bid.html">How to Bid</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Upcoming Auctions</h2>
+            <p>Join us every Monday at 7:00 PM for public car auctions</p>
+        </div>
+    </section>
+
+    <section class="next-auction-full">
+        <div class="container">
+            <h2 class="section-title">Next Auction Event</h2>
+            <div class="next-auction-info">
+                <div class="auction-date-time">
+                    <div class="auction-countdown-large">
+                        <h3>Auction Starts In:</h3>
+                        <div id="countdown" class="countdown-large">
+                            <div class="countdown-segment">
+                                <span id="days">05</span>
+                                <span class="label">Days</span>
+                            </div>
+                            <div class="countdown-segment">
+                                <span id="hours">12</span>
+                                <span class="label">Hours</span>
+                            </div>
+                            <div class="countdown-segment">
+                                <span id="minutes">34</span>
+                                <span class="label">Minutes</span>
+                            </div>
+                            <div class="countdown-segment">
+                                <span id="seconds">56</span>
+                                <span class="label">Seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="auction-details-card">
+                        <h3>Event Details</h3>
+                        <ul>
+                            <li><i class="fas fa-calendar"></i> <strong>Date:</strong> <span class="next-date">Monday, March 18, 2025</span></li>
+                            <li><i class="fas fa-clock"></i> <strong>Time:</strong> 7:00 PM</li>
+                            <li><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> 438 Lodge Rd, Overbrook, OK 73453</li>
+                            <li><i class="fas fa-car"></i> <strong>Inventory:</strong> 50+ Vehicles</li>
+                            <li><i class="fas fa-clipboard-list"></i> <strong>Registration:</strong> Opens at 5:30 PM</li>
+                            <li><i class="fas fa-search"></i> <strong>Inspection:</strong> 5:30 PM - 6:45 PM</li>
+                        </ul>
+                        <div class="auction-buttons">
+                            <a href="how-to-bid.html" class="btn btn-primary">How to Bid</a>
+                            <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-inventory">
+        <div class="container">
+            <h2 class="section-title">Featured Inventory</h2>
+            <p class="section-desc text-center">Preview some of the vehicles that will be available at our next auction. Full inventory list available on auction day.</p>
+            
+            <div class="inventory-grid">
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2019 Ford F-150 XLT</h3>
+                        <ul class="vehicle-details">
+                            <li><i class="fas fa-tachometer-alt"></i> 45,000 miles</li>
+                            <li><i class="fas fa-gas-pump"></i> V8, 5.0L</li>
+                            <li><i class="fas fa-palette"></i> Silver</li>
+                            <li><i class="fas fa-info-circle"></i> 4WD, Crew Cab</li>
+                        </ul>
+                        <p class="starting-bid">Starting Bid: $15,000</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2018 Honda Accord LX</h3>
+                        <ul class="vehicle-details">
+                            <li><i class="fas fa-tachometer-alt"></i> 38,000 miles</li>
+                            <li><i class="fas fa-gas-pump"></i> I4, 1.5L</li>
+                            <li><i class="fas fa-palette"></i> Blue</li>
+                            <li><i class="fas fa-info-circle"></i> FWD, Sedan</li>
+                        </ul>
+                        <p class="starting-bid">Starting Bid: $12,500</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2020 Chevrolet Equinox</h3>
+                        <ul class="vehicle-details">
+                            <li><i class="fas fa-tachometer-alt"></i> 32,000 miles</li>
+                            <li><i class="fas fa-gas-pump"></i> I4, 1.5L</li>
+                            <li><i class="fas fa-palette"></i> Red</li>
+                            <li><i class="fas fa-info-circle"></i> AWD, SUV</li>
+                        </ul>
+                        <p class="starting-bid">Starting Bid: $14,000</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2017 Toyota RAV4 LE</h3>
+                        <ul class="vehicle-details">
+                            <li><i class="fas fa-tachometer-alt"></i> 55,000 miles</li>
+                            <li><i class="fas fa-gas-pump"></i> I4, 2.5L</li>
+                            <li><i class="fas fa-palette"></i> White</li>
+                            <li><i class="fas fa-info-circle"></i> AWD, SUV</li>
+                        </ul>
+                        <p class="starting-bid">Starting Bid: $13,000</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2021 Nissan Altima S</h3>
+                        <ul class="vehicle-details">
+                            <li><i class="fas fa-tachometer-alt"></i> 28,000 miles</li>
+                            <li><i class="fas fa-gas-pump"></i> I4, 2.5L</li>
+                            <li><i class="fas fa-palette"></i> Black</li>
+                            <li><i class="fas fa-info-circle"></i> FWD, Sedan</li>
+                        </ul>
+                        <p class="starting-bid">Starting Bid: $15,500</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2016 Jeep Grand Cherokee</h3>
+                        <ul class="vehicle-details">
+                            <li><i class="fas fa-tachometer-alt"></i> 62,000 miles</li>
+                            <li><i class="fas fa-gas-pump"></i> V6, 3.6L</li>
+                            <li><i class="fas fa-palette"></i> Gray</li>
+                            <li><i class="fas fa-info-circle"></i> 4WD, SUV</li>
+                        </ul>
+                        <p class="starting-bid">Starting Bid: $14,800</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all-note">
+                <p>This is just a sample of our upcoming inventory. Full vehicle list available on auction day.</p>
+                <p>Please note that all vehicles are sold as-is. We encourage inspection before bidding.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="auction-schedule">
+        <div class="container">
+            <h2 class="section-title">Auction Schedule</h2>
+            <div class="schedule-container">
+                <div class="schedule-card">
+                    <div class="schedule-header">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Regular Auction Schedule</h3>
+                    </div>
+                    <div class="schedule-content">
+                        <p>Our auctions run weekly throughout the year:</p>
+                        <ul>
+                            <li><strong>Day:</strong> Every Monday</li>
+                            <li><strong>Time:</strong> 7:00 PM</li>
+                            <li><strong>Registration:</strong> Opens at 5:30 PM</li>
+                            <li><strong>Vehicle Inspection:</strong> 5:30 PM - 6:45 PM</li>
+                        </ul>
+                        <p class="schedule-note">Doors open at 5:30 PM for registration and vehicle inspection. We recommend arriving early to inspect vehicles and complete registration.</p>
+                    </div>
+                </div>
+                
+                <div class="schedule-card">
+                    <div class="schedule-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Special Auctions</h3>
+                    </div>
+                    <div class="schedule-content">
+                        <p>Throughout the year, we host several special auctions:</p>
+                        <ul>
+                            <li><strong>Spring Showcase Auction:</strong> April 15, 2025</li>
+                            <li><strong>Summer Collector's Auction:</strong> July 20, 2025</li>
+                            <li><strong>Fall Clearance Auction:</strong> October 12, 2025</li>
+                            <li><strong>Year-End Blowout:</strong> December 14, 2025</li>
+                        </ul>
+                        <p class="schedule-note">Special auctions may feature unique vehicles, collector cars, or inventory clearance events with special terms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="auction-faq">
+        <div class="container">
+            <h2 class="section-title">Auction FAQs</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What do I need to bring on auction day?</h3>
+                    <p>Please bring a valid government-issued ID, proof of address, and payment method (cash, credit card, or bank check). If you plan to bid, you'll need to register and receive a bidder number.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How does payment work?</h3>
+                    <p>We accept cash, credit cards (with 3% processing fee), and bank checks. A deposit of $500 or 10% (whichever is greater) is due immediately after winning a bid, with full payment required within 48 hours.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I inspect vehicles before bidding?</h3>
+                    <p>Yes, vehicle inspection is available from 5:30 PM until 6:45 PM on auction day. We encourage all bidders to thoroughly inspect vehicles before bidding.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>When do I pick up my vehicle?</h3>
+                    <p>Vehicles must be picked up within 3 business days after full payment. We offer secure storage until pickup, but vehicles not picked up after 7 days will incur a daily storage fee of $25.</p>
+                </div>
+            </div>
+            <div class="faq-more">
+                <a href="faq.html" class="btn btn-secondary">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-started">
+        <div class="container">
+            <h2>Join Us at Our Next Auction</h2>
+            <p>No dealer license required! Everyone is welcome to bid.</p>
+            <div class="cta-buttons">
+                <a href="how-to-bid.html" class="btn btn-primary">Learn How to Bid</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Ardmore Car Auction</h3>
+                    <p>Weekly public car auctions every Monday at 7:00 PM.</p>
+                    <p>No dealer license required to bid!</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ardmorecarauction/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="auctions.html">Auctions</a></li>
+                        <li><a href="how-to-bid.html">How to Bid</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 438 Lodge Rd, Overbrook, OK 73453</p>
+                    <p><i class="fas fa-phone"></i> (580) 226-7710</p>
+                    <p><i class="fas fa-envelope"></i> info@ardmorecarauction.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ardmore Car Auction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | Ardmore Car Auction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Answers to commonly asked questions about Ardmore Car Auction in Oklahoma. Learn about bidding, payment, vehicle inspection and more.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ardmore Car Auction</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="auctions.html">Auctions</a></li>
+                    <li><a href="how-to-bid.html">How to Bid</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html" class="active">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p>Get answers to commonly asked questions about our auctions</p>
+        </div>
+    </section>
+
+    <section class="faq-search">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="faq-search" placeholder="Search the FAQs...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All Questions</button>
+                <button class="category-tab" data-category="general">General</button>
+                <button class="category-tab" data-category="bidding">Bidding Process</button>
+                <button class="category-tab" data-category="payment">Payment & Pickup</button>
+                <button class="category-tab" data-category="vehicles">Vehicles & Inspection</button>
+            </div>
+            
+            <div class="faq-list">
+                <!-- General FAQs -->
+                <div class="faq-item" data-category="general">
+                    <div class="faq-question">
+                        <h3>When do your auctions take place?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our regular auctions are held every Monday at 7:00 PM. Doors open at 5:30 PM for registration and vehicle inspection. We also host special themed auctions throughout the year, which are announced on our website and social media.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="general">
+                    <div class="faq-question">
+                        <h3>Where is Ardmore Car Auction located?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We are located at 438 Lodge Rd, Overbrook, OK 73453, just a short drive from downtown Ardmore. Our facility includes a 5-acre lot with ample parking for visitors.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="general">
+                    <div class="faq-question">
+                        <h3>Is Ardmore Car Auction open to the public?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Our auctions are open to the public, and no dealer license is required to bid. Both dealers and individual buyers are welcome to participate in our auctions.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="general">
+                    <div class="faq-question">
+                        <h3>Can I sell my vehicle at your auction?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we accept consignments from individuals and dealers. There is a $150 consignment fee, which is refunded if the vehicle sells. To consign a vehicle, please bring your vehicle, title, and ID to our office during business hours (Monday-Friday, 9:00 AM - 5:00 PM) at least 3 days before the auction. For more information, please call us at (580) 226-7710.</p>
+                    </div>
+                </div>
+                
+                <!-- Bidding Process FAQs -->
+                <div class="faq-item" data-category="bidding">
+                    <div class="faq-question">
+                        <h3>How do I register to bid?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Registration is available on auction day from 5:30 PM until the auction begins at 7:00 PM. You'll need to bring a valid government-issued photo ID, proof of address, and a method of payment for the $25 registration fee (refundable with purchase). Once registered, you'll receive a bidder card with your bidder number.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="bidding">
+                    <div class="faq-question">
+                        <h3>Do I need a dealer license to bid?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, our auctions are open to the public. You do not need a dealer license to participate. Both dealers and public buyers bid in the same auction.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="bidding">
+                    <div class="faq-question">
+                        <h3>Can I bring someone with me to help inspect vehicles?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you're welcome to bring a friend, family member, or mechanic to help you inspect vehicles. They will need to register as a guest upon arrival but do not need to pay the registration fee unless they plan to bid.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="bidding">
+                    <div class="faq-question">
+                        <h3>How does the bidding process work?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Vehicles are brought into the auction arena one at a time. The auctioneer announces basic details and the starting bid. To place a bid, hold up your bidder card clearly so the auctioneer or spotters can see it. The auctioneer will call out increasing bid amounts, and the highest bidder wins when the auctioneer calls "Sold!" The entire process for each vehicle typically takes about 2-3 minutes.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="bidding">
+                    <div class="faq-question">
+                        <h3>What happens after I win a bid?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>After winning a bid, you'll be directed to the cashier's office where you'll pay a non-refundable deposit ($500 or 10% of the purchase price, whichever is greater), sign a purchase agreement, and receive information about completing payment and vehicle pickup.</p>
+                    </div>
+                </div>
+                
+                <!-- Payment & Pickup FAQs -->
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>What forms of payment do you accept?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept the following forms of payment:</p>
+                        <ul>
+                            <li>Cash</li>
+                            <li>Credit Cards (subject to a 3% processing fee)</li>
+                            <li>Bank Check or Money Order</li>
+                            <li>Wire Transfer</li>
+                        </ul>
+                        <p>Personal checks are not accepted.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>When is full payment due?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Full payment is due within 48 hours of the auction. If you cannot meet this requirement, you may forfeit your deposit and the vehicle may be re-auctioned.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>What fees should I expect besides the winning bid amount?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>In addition to your winning bid, you'll pay:</p>
+                        <ul>
+                            <li>Buyer's Premium: 5% of the final bid price</li>
+                            <li>Documentation Fee: $150</li>
+                            <li>Sales Tax (if applicable)</li>
+                            <li>Title Transfer Fee: $25</li>
+                        </ul>
+                        <p>Your registration fee ($25) will be applied toward these fees if you purchase a vehicle.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>When and how do I pick up my vehicle?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Vehicles must be picked up within 3 business days after full payment. Our office hours for vehicle pickup are Monday-Friday, 9:00 AM - 5:00 PM. You'll need to bring your receipt and ID. If you need to arrange transportation, we can provide recommendations for local towing companies.</p>
+                        <p>Vehicles not picked up after 7 days will incur a storage fee of $25 per day.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="payment">
+                    <div class="faq-question">
+                        <h3>How long does it take to receive the title?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For most vehicles, you'll receive the title at the time of pickup after full payment has been made. In some cases involving bank liens or out-of-state titles, there may be a delay of up to 30 days. We'll provide you with a bill of sale and all necessary documentation for temporary registration if needed.</p>
+                    </div>
+                </div>
+                
+                <!-- Vehicles & Inspection FAQs -->
+                <div class="faq-item" data-category="vehicles">
+                    <div class="faq-question">
+                        <h3>What types of vehicles do you auction?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We auction a wide variety of vehicles including cars, trucks, SUVs, vans, motorcycles, and occasionally RVs and boats. Our inventory comes from various sources including dealer trades, lease returns, bank repossessions, and individual consignments.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="vehicles">
+                    <div class="faq-question">
+                        <h3>Can I inspect vehicles before bidding?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, vehicle inspection is available from 5:30 PM until 6:45 PM on auction day. We encourage all bidders to thoroughly inspect vehicles before bidding. Staff members can start vehicles upon request, but test drives are not available.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="vehicles">
+                    <div class="faq-question">
+                        <h3>Are the vehicles guaranteed or warrantied?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All vehicles are sold "as-is, where-is" with no warranties or guarantees, either expressed or implied. This is why thorough inspection before bidding is essential.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="vehicles">
+                    <div class="faq-question">
+                        <h3>Do you provide vehicle history reports?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For select vehicles, we provide basic vehicle history information. However, we recommend that bidders run their own comprehensive vehicle history reports. We can provide the VIN numbers for vehicles you're interested in during the inspection period.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="vehicles">
+                    <div class="faq-question">
+                        <h3>Can I see what vehicles will be available before auction day?</h3>
+                        <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We post a preliminary inventory list on our Facebook page (facebook.com/ardmorecarauction) by Friday evening before the Monday auction. However, the final inventory may change as additional consignments are accepted up until auction day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="not-found-answer">
+        <div class="container">
+            <h2 class="section-title">Didn't Find Your Answer?</h2>
+            <p class="text-center">If you couldn't find the information you're looking for, please feel free to contact us directly.</p>
+            <div class="contact-options">
+                <div class="contact-option">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>(580) 226-7710</p>
+                    <p>Monday-Friday, 9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="contact-option">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@ardmorecarauction.com</p>
+                    <p>We respond within 24 business hours</p>
+                </div>
+                <div class="contact-option">
+                    <i class="fas fa-comment"></i>
+                    <h3>Contact Form</h3>
+                    <p>Fill out our contact form with your question</p>
+                    <a href="contact.html" class="btn btn-sm">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-started">
+        <div class="container">
+            <h2>Ready to Join Our Next Auction?</h2>
+            <p>We look forward to seeing you at our next Monday auction at 7:00 PM.</p>
+            <div class="cta-buttons">
+                <a href="auctions.html" class="btn btn-primary">View Upcoming Auctions</a>
+                <a href="how-to-bid.html" class="btn btn-secondary">Learn How to Bid</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Ardmore Car Auction</h3>
+                    <p>Weekly public car auctions every Monday at 7:00 PM.</p>
+                    <p>No dealer license required to bid!</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ardmorecarauction/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="auctions.html">Auctions</a></li>
+                        <li><a href="how-to-bid.html">How to Bid</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 438 Lodge Rd, Overbrook, OK 73453</p>
+                    <p><i class="fas fa-phone"></i> (580) 226-7710</p>
+                    <p><i class="fas fa-envelope"></i> info@ardmorecarauction.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ardmore Car Auction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ item toggle
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    // Toggle active class on the question
+                    this.classList.toggle('active');
+                    
+                    // Toggle the answer
+                    const answer = this.nextElementSibling;
+                    if (answer.style.maxHeight) {
+                        answer.style.maxHeight = null;
+                        this.querySelector('.toggle-icon i').className = 'fas fa-chevron-down';
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        this.querySelector('.toggle-icon i').className = 'fas fa-chevron-up';
+                    }
+                });
+            });
+            
+            // Category filters
+            const categoryTabs = document.querySelectorAll('.category-tab');
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            categoryTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    categoryTabs.forEach(tab => tab.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Get category value
+                    const categoryValue = this.getAttribute('data-category');
+                    
+                    // Filter FAQ items
+                    faqItems.forEach(item => {
+                        if (categoryValue === 'all' || item.getAttribute('data-category') === categoryValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Search functionality
+            const searchInput = document.getElementById('faq-search');
+            const searchBtn = document.getElementById('search-btn');
+            
+            function performSearch() {
+                const searchTerm = searchInput.value.toLowerCase().trim();
+                
+                if (searchTerm === '') {
+                    // If search is empty, show all items and reset category tabs
+                    faqItems.forEach(item => item.style.display = 'block');
+                    categoryTabs.forEach(tab => tab.classList.remove('active'));
+                    document.querySelector('.category-tab[data-category="all"]').classList.add('active');
+                    return;
+                }
+                
+                // Reset category tabs
+                categoryTabs.forEach(tab => tab.classList.remove('active'));
+                document.querySelector('.category-tab[data-category="all"]').classList.add('active');
+                
+                // Search through FAQ items
+                faqItems.forEach(item => {
+                    const question = item.querySelector('.faq-question h3').textContent.toLowerCase();
+                    const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
+                    
+                    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            }
+            
+            searchBtn.addEventListener('click', performSearch);
+            searchInput.addEventListener('keyup', function(e) {
+                if (e.key === 'Enter') {
+                    performSearch();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

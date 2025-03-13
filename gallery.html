@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery | Ardmore Car Auction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="View photos from recent auctions at Ardmore Car Auction in Overbrook, Oklahoma.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ardmore Car Auction</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="auctions.html">Auctions</a></li>
+                    <li><a href="how-to-bid.html">How to Bid</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <p>Explore images from our recent auctions and facility</p>
+        </div>
+    </section>
+
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="vehicles">Vehicles</button>
+                <button class="filter-btn" data-filter="facility">Our Facility</button>
+                <button class="filter-btn" data-filter="events">Auction Events</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-container">
+                <!-- Vehicles -->
+                <div class="gallery-item" data-category="vehicles">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>2019 Ford F-150 XLT</h3>
+                                <p>Sold at our Spring 2024 Auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="vehicles">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>2018 Honda Accord LX</h3>
+                                <p>Featured in our February 2025 Auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="vehicles">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>2020 Chevrolet Equinox</h3>
+                                <p>Available at upcoming auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="vehicles">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>2021 Nissan Altima</h3>
+                                <p>Recently sold at auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="vehicles">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Classic Car Collection</h3>
+                                <p>From our Collector's Auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="vehicles">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>2017 Jeep Grand Cherokee</h3>
+                                <p>From January 2025 Auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Facility -->
+                <div class="gallery-item" data-category="facility">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Auction Arena</h3>
+                                <p>Our main indoor auction facility</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="facility">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Vehicle Lot</h3>
+                                <p>Our 5-acre lot with 200+ vehicle capacity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="facility">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Registration Area</h3>
+                                <p>Where bidders check in before auctions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="facility">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Main Office</h3>
+                                <p>Administrative area and customer service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Events -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Auction in Progress</h3>
+                                <p>Live bidding at our Monday night auction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Auctioneer in Action</h3>
+                                <p>Our head auctioneer during a busy sale</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Vehicle Inspection</h3>
+                                <p>Buyers examining vehicles before bidding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image placeholder-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h3>Summer Collector's Auction</h3>
+                                <p>Our special annual event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="share-photos">
+        <div class="container">
+            <h2 class="section-title">Share Your Photos</h2>
+            <p class="text-center">Did you purchase a vehicle at one of our auctions? Share your photos with us!</p>
+            <div class="share-info">
+                <p>We love seeing our auction vehicles with their new owners. Share your photos with us by:</p>
+                <ul>
+                    <li>Tagging us on social media with #ArdmoreCarAuction</li>
+                    <li>Emailing photos to photos@ardmorecarauction.com</li>
+                    <li>Bringing photos to our office during your next visit</li>
+                </ul>
+                <p>With your permission, we may feature your photos on our website and social media accounts.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-started">
+        <div class="container">
+            <h2>Ready to Join Our Next Auction?</h2>
+            <p>See these vehicles in person at our weekly Monday auction at 7:00 PM.</p>
+            <div class="cta-buttons">
+                <a href="auctions.html" class="btn btn-primary">View Upcoming Auctions</a>
+                <a href="how-to-bid.html" class="btn btn-secondary">Learn How to Bid</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Ardmore Car Auction</h3>
+                    <p>Weekly public car auctions every Monday at 7:00 PM.</p>
+                    <p>No dealer license required to bid!</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ardmorecarauction/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="auctions.html">Auctions</a></li>
+                        <li><a href="how-to-bid.html">How to Bid</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 438 Lodge Rd, Overbrook, OK 73453</p>
+                    <p><i class="fas fa-phone"></i> (580) 226-7710</p>
+                    <p><i class="fas fa-envelope"></i> info@ardmorecarauction.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ardmore Car Auction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Gallery filters
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Get filter value
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
