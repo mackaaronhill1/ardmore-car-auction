@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardmore Car Auction | Ardmore, Oklahoma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Ardmore Car Auction - Public car auctions every Monday at 7:00 PM in Ardmore, Oklahoma. No dealer license required to bid.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ardmore Car Auction</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="auctions.html">Auctions</a></li>
+                    <li><a href="how-to-bid.html">How to Bid</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Find Your Dream Car at Auction Prices</h2>
+                <p>Join us every Monday at 7:00 PM for public car auctions. No dealer license required!</p>
+                <div class="cta-buttons">
+                    <a href="auctions.html" class="btn btn-primary">Upcoming Auctions</a>
+                    <a href="how-to-bid.html" class="btn btn-secondary">How to Bid</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Ardmore Car Auction?</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Weekly Auctions</h3>
+                    <p>New vehicles available every Monday at 7:00 PM</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Open to Public</h3>
+                    <p>No dealer license required to bid on vehicles</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tags"></i>
+                    <h3>Great Deals</h3>
+                    <p>Competitive bidding for below-market prices</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Variety of Vehicles</h3>
+                    <p>Cars, trucks, SUVs, and more available each week</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-vehicles">
+        <div class="container">
+            <h2 class="section-title">Featured Vehicles</h2>
+            <div class="vehicle-slider">
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2019 Ford F-150 XLT</h3>
+                        <p>Starting Bid: $15,000</p>
+                        <p>Mileage: 45,000</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2018 Honda Accord LX</h3>
+                        <p>Starting Bid: $12,500</p>
+                        <p>Mileage: 38,000</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                <div class="vehicle-card">
+                    <div class="vehicle-image placeholder-image"></div>
+                    <div class="vehicle-info">
+                        <h3>2020 Chevrolet Equinox</h3>
+                        <p>Starting Bid: $14,000</p>
+                        <p>Mileage: 32,000</p>
+                        <a href="#" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="next-auction">
+        <div class="container">
+            <h2 class="section-title">Next Auction</h2>
+            <div class="auction-info">
+                <div class="auction-details">
+                    <p><i class="fas fa-calendar"></i> <strong>Date:</strong> Monday, March 18, 2025</p>
+                    <p><i class="fas fa-clock"></i> <strong>Time:</strong> 7:00 PM</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> 438 Lodge Rd, Overbrook, OK 73453</p>
+                </div>
+                <div class="auction-countdown">
+                    <h3>Auction Starts In:</h3>
+                    <div id="countdown">
+                        <div class="countdown-segment">
+                            <span id="days">05</span>
+                            <span class="label">Days</span>
+                        </div>
+                        <div class="countdown-segment">
+                            <span id="hours">12</span>
+                            <span class="label">Hours</span>
+                        </div>
+                        <div class="countdown-segment">
+                            <span id="minutes">34</span>
+                            <span class="label">Minutes</span>
+                        </div>
+                        <div class="countdown-segment">
+                            <span id="seconds">56</span>
+                            <span class="label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p class="quote">"I found my dream truck at Ardmore Car Auction for thousands less than dealer prices. The bidding process was straightforward and exciting!"</p>
+                    <p class="author">- Michael R., Ardmore</p>
+                </div>
+                <div class="testimonial">
+                    <p class="quote">"As a first-time auction buyer, I was nervous, but the staff at Ardmore Car Auction were helpful and guided me through the entire process."</p>
+                    <p class="author">- Sarah T., Durant</p>
+                </div>
+                <div class="testimonial">
+                    <p class="quote">"I've been attending the Monday auctions for years and have purchased multiple vehicles. Always a fair and transparent process."</p>
+                    <p class="author">- Robert J., Marietta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-started">
+        <div class="container">
+            <h2>Ready to Bid on Your Next Vehicle?</h2>
+            <p>Join us at our next auction or contact us for more information.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="how-to-bid.html" class="btn btn-secondary">Learn How to Bid</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Ardmore Car Auction</h3>
+                    <p>Weekly public car auctions every Monday at 7:00 PM.</p>
+                    <p>No dealer license required to bid!</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ardmorecarauction/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="auctions.html">Auctions</a></li>
+                        <li><a href="how-to-bid.html">How to Bid</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 438 Lodge Rd, Overbrook, OK 73453</p>
+                    <p><i class="fas fa-phone"></i> (580) 226-7710</p>
+                    <p><i class="fas fa-envelope"></i> info@ardmorecarauction.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ardmore Car Auction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
